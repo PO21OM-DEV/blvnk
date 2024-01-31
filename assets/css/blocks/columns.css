@@ -1,0 +1,39 @@
+/* change defult columns media query */
+@media (min-width: 782px) and (max-width: 782px) {
+  .wp-block-columns {
+    flex-wrap: wrap !important;
+  }
+  .wp-block-columns > .wp-block-column {
+    flex-basis: 100% !important;
+  }
+}
+
+/* columns - medium */
+@media (min-width: 782px) and (max-width: 991px) {
+  .wp-block-columns.is-style-medium {
+    flex-wrap: wrap !important;
+  }
+  .wp-block-columns.is-style-medium > .wp-block-column {
+    flex-basis: 100% !important;
+  }
+}
+
+/* columns - large */
+@media (min-width: 782px) and (max-width: 1199px) {
+  .wp-block-columns.is-style-large {
+    flex-wrap: wrap !important;
+  }
+  .wp-block-columns.is-style-large > .wp-block-column {
+    flex-basis: 100% !important;
+  }
+}
+
+/* columns - x-large */
+@media (min-width: 782px) and (max-width: 1399px) {
+  .wp-block-columns.is-style-xlarge {
+    flex-wrap: wrap !important;
+  }
+  .wp-block-columns.is-style-xlarge > .wp-block-column {
+    flex-basis: 100% !important;
+  }
+}

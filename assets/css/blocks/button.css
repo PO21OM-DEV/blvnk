@@ -1,0 +1,6 @@
+/* button inline image */
+.wp-block-button .wp-element-button img {
+  margin-top: -2px;
+  margin-left: .5rem;
+  vertical-align: middle;
+}
